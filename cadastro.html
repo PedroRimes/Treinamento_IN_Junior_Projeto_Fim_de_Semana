@@ -16,27 +16,37 @@
 
 <body>
     <header>
-        <div id="new-header">
-            <a class="links-header" href="./index.html">Nossos Lobinhos</a>
-            <a class="links-header" href="./index.html">Pagina Inicial</a>
-        </div>
+        <a class="links-header" href="./index.html">Nossos Lobinhos</a>
         <img src="./img/Logo.svg" alt="">
         <a class="links-header" href="">Quem Somos</a>
     </header>
     <main>
         <div class="titulo">
-            <h2>Cadastro de Lobinhos:</h2>
+            <h2>Coloque um Lobinho para Adoção</h2>
         </div>
         <form action="">
             <div id="entrada-dados">
-                <p>Nome</p>
-                <input id="name" type="text">
-                <p>Idade</p>
-                <input id="age" type="text">
-                <p>Imagem</p>
-                <input id="image" type="text">
-                <p>Descrição</p>
-                <input id="description" type="text">
+                <div>
+                    <div>
+                        <p>Nome do Lobinho:</p>
+                        <textarea id="name" type="text"></textarea>   
+                    </div>
+                    <div>
+                        <p>Anos:</p>
+                        <textarea id="age" type="text"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <p>Link da Foto:</p>
+                    <textarea id="image" type="text"></textarea>
+                </div>
+                <div>
+                    <p>Descrição:</p>
+                    <textarea id="description" type="text"></textarea>
+                </div>
+                <div>
+                    <button>Salvar</button>
+                </div>
             </div>
         </form>
 
