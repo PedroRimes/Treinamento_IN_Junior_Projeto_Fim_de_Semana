@@ -1,0 +1,95 @@
+
+main {
+    border: black solid 4px;
+    margin: 4rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.titulo {
+    margin: 2rem;
+    font-size: 60px;
+    font-weight: 600;
+}
+#entrada-dados div {
+    margin: 2rem 0 0 0;
+}
+#entrada-dados div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40rem;
+}
+
+
+#entrada-dados div p {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+#entrada-dados div textarea {
+    width: 100%;
+}
+
+#entrada-dados div > #name {
+    width: 92%;;
+}
+
+#entrada-dados div:first-child { /*div nome e anos */
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#entrada-dados div div:first-child { /* nome */
+    display: flex;
+    flex-direction: column;   
+    min-width: 70%;
+    
+}
+
+#entrada-dados div div:last-child textarea {
+    width: 100%;
+}
+
+#entrada-dados div div:last-child {   /*div  anos */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    
+    
+}
+
+
+#entrada-dados div textarea{
+    background-color: #E6E6E6;
+    height: 2rem;
+    
+}
+
+#description {
+    min-height: 15rem;
+}
+
+#entrada-dados div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #2C5680;
+    color: white;
+    width: 209px;
+    height: 60px;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
