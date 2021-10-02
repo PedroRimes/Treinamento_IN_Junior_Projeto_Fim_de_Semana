@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap');
+*{
+    font-family: "Darker Grotesque", "sans serif";
+    margin: 0;
+}
+.container{
+    min-height: 14em;
+}
+.textbox{
+    position: absolute;
+    width: 50em;
+    height: 3em;
+    left: 25.5em;
+    top: 10.3em;
+    border: 0.1em solid #333333;
+    box-sizing: border-box;
+}
+.containerlobos{
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 1049px;
+    top: 163px;
+    background: #DEB959;
+}
+.containerlobos .maislobo{
+    position: absolute;
+    width: 89px;
+    height: 38.38px;
+    left: 1070px;
+    top: 163.78px;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.marker{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 221px;
+    top: 234px;
+
+    background: #FAFAFA;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.verlobinhos{
+    position: absolute;
+    width: 201px;
+    height: 33px;
+    left: 264px;
+    top: 228px;
+
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #353535;
+}
