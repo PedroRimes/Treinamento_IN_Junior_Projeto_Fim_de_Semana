@@ -16,12 +16,88 @@ header {
     z-index: 2;
 }
 
-.links-header {
+a.links-header1{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+  }
+
+a:focus{
+    color:rgb(255, 255, 255);
+    background: #000;
+  }
+.links-header1 {
     text-decoration: none;
     color: #333333;
     font-size: 1.9rem;
     font-weight: 1000;
+    padding-bottom: 0.2em;
 }
+.links-header1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 50px;
+    left: 0;
+    transition: transform .3s ease-in-out;
+}
+.links-header1:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header1:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    
+} 
+
+
+.links-header2 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50px;
+    transition: transform .3s ease-in-out;
+}
+.links-header2:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header2:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+}  
 
 .lobo-grande {
     width: auto;   
@@ -198,8 +274,8 @@ footer {
 }
 
 
-.contatos button {
-
+.contatos a {
+    text-decoration: none;
     font-size: 1.4rem;
     background-color: #DEB959;
     color: #333333;

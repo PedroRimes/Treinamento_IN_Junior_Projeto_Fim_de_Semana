@@ -208,8 +208,8 @@ footer {
 }
 
 
-.contatos button {
-
+.contatos a {
+    text-decoration: none;
     font-size: 1.4rem;
     background-color: #DEB959;
     color: #333333;
