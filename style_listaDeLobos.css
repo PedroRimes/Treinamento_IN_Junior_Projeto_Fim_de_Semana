@@ -18,18 +18,18 @@
 }
 .containerlobos{
     position: absolute;
-    width: 130px;
-    height: 47px;
-    left: 1049px;
-    top: 163px;
+    width: 8.125em;
+    height: 2.9375em;
+    left: 77em;
+    top: 10.3em;
     background: #DEB959;
 }
 .containerlobos .maislobo{
     position: absolute;
-    width: 89px;
-    height: 38.38px;
-    left: 1070px;
-    top: 163.78px;
+    width: 5.5em;
+    height: 2.3em;
+    top: -0.6em;
+    left: 0.2em;
     font-family: Darker Grotesque;
     font-style: normal;
     font-weight: 600;
@@ -41,11 +41,10 @@
 }
 .marker{
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 221px;
-    top: 234px;
-
+    width: 1.25em;
+    height: 1.25em;
+    left: 25.5em;
+    top: 14.625em;
     background: #FAFAFA;
     border: 1px solid #333333;
     box-sizing: border-box;
@@ -53,20 +52,18 @@
 }
 .verlobinhos{
     position: absolute;
-    width: 201px;
-    height: 33px;
-    left: 264px;
-    top: 228px;
+    width: 12.5em;
+    left: 1em;
+    
 
     font-family: Darker Grotesque;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 33px;
+    line-height: 15px;
     /* identical to box height */
 
     display: flex;
-    align-items: center;
 
     color: #353535;
 }
