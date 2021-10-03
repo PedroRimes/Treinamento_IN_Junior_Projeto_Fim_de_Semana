@@ -4,6 +4,7 @@ main {
     margin: 4rem 4rem 4rem 4rem; 
     width: auto;
     padding: 0 20% 0 20%;
+    min-height: 15rem;
 }
 .titulo {
     margin-top: 3rem;
@@ -45,12 +46,14 @@ main {
 #nome-anos div:last-child {
     width: 30%;
     padding-left: 2%;
+    min-width: 4rem;
 }
 
 
 
 #entrada-dados div textarea{
     background-color: #E6E6E6;
+    min-width: 13rem;
 }
 
 #description {
