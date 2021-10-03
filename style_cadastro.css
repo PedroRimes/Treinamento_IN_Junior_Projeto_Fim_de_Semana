@@ -37,19 +37,11 @@ main {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
+
 #nome-anos div:first-child {
     width: 68%;
     min-width: 13rem;
-=======
-
-
-#entrada-dados div div:first-child { /* nome */
-    display: flex;
-    flex-direction: column;   
-    min-width: 70%;
->>>>>>> 3b47161d249c41edf58e15d20b6fcfe5c98bfa4a
-}
+} 
 #nome-anos div:last-child {
     width: 30%;
     padding-left: 2%;
