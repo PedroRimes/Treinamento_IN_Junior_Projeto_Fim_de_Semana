@@ -4,32 +4,144 @@
     font-family: "Darker Grotesque", "sans serif";
     margin: 0;
 }
-.container{
-    min-height: 14em;
+body {
+    font-family: "Darker Grotesque"
+    
+}
+header {
+    box-shadow: 0 0 1em #afafaf;
+    background-color: #85CDF5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+a.links-header1{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.links-header1 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 50px;
+    left: 0;
+    transition: transform .3s ease-in-out;
+}
+.links-header1:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header1:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    
+} 
+
+
+.links-header2 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50px;
+    transition: transform .3s ease-in-out;
+}
+.links-header2:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header2:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+}  
+.supertextbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .textbox{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    max-height: 10em;
+}
+#search{
+    display: flex;
+    justify-content: center;
     width: 50em;
-    height: 3em;
-    left: 25.5em;
-    top: 10.3em;
     border: 0.1em solid #333333;
     box-sizing: border-box;
+    font-size: 1em;
+}
+.textbox2{
+    display: flex;
+    justify-content: left;
+    max-height: 10em;
+    margin-right: 26%;
+    margin-bottom: 3em;
+}
+.verlobinhos{
+    margin-left:10px;
+}
+.marker{
+    display: flex;
+    justify-content: center;
 }
 .containerlobos{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
     width: 8.125em;
-    height: 2.9375em;
-    left: 77em;
-    top: 10.3em;
     background: #DEB959;
 }
 .containerlobos .maislobo{
-    position: absolute;
-    width: 5.5em;
-    height: 2.3em;
-    top: -0.6em;
-    left: 0.2em;
     font-family: Darker Grotesque;
     font-style: normal;
     font-weight: 600;
@@ -37,10 +149,10 @@
     line-height: 49px;
     display: flex;
     align-items: center;
+    margin-bottom: 0.2em;
     color: #ffffff;
 }
 .marker{
-    position: absolute;
     width: 1.25em;
     height: 1.25em;
     left: 25.5em;
@@ -51,19 +163,143 @@
     border-radius: 5px;
 }
 .verlobinhos{
-    position: absolute;
     width: 12.5em;
     left: 1em;
-    
-
     font-family: Darker Grotesque;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 15px;
     /* identical to box height */
-
     display: flex;
-
     color: #353535;
+}
+#imagens-valores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#imagens-valores li div {
+    background-color: #FFFFFF;
+    margin: 0 2rem 0 2rem;
+    padding: 2rem;
+    max-width: 10rem;
+    border-radius: 100%;
+}
+#imagens-valores li {
+    max-width: 18rem;
+}
+#imagens-valores li div img {
+    width: 10rem;
+    height: 10rem;
+}
+.titulos-valores {
+    margin: 0 2rem 0 2rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.texto-valores {
+    font-size: 1.7rem;
+    font-weight: 100;
+    line-height: 0.8;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.descricao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
+}
+.imagem-lobo {
+    background-image: url(./img/image\ \(1\).png);
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
+}
+.descricao-lobo {
+    margin: 3rem 0 3rem 3rem;
+    margin-bottom: 5rem;
+}
+.nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.descricao2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.descricao2 {
+    text-align: end; 
+}
+.descricao2 .quadrado-azul {
+    margin-left: 4rem;
+}
+.descricao2 .imagem-lobo {
+    background-image: url(./img/image\ \(2\).png);
+}
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+.contatos a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: #DEB959;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    margin: 1rem 0 0 1rem;
+}
+.contatos img {
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem;
+}
+.contatos div {
+    display: flex;
+    align-items: center;
+}
+.pata {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pata img {
+    margin-right: 0.1rem;
 }
