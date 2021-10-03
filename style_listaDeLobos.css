@@ -130,18 +130,19 @@ a:hover{
     border:rgb(255, 255, 255);
     border-bottom: 0.1em solid #333333;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 25px;
 }
 .textbox2{
     display: flex;
     justify-content: left;
     max-height: 10em;
-    margin-right: 26%;
+    margin-right: 44.2%;
     margin-bottom: 3em;
 }
 .marker{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    
 }
 .verlobinhos{
     margin-left:10px;
