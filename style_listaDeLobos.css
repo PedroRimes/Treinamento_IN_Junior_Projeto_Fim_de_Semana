@@ -174,42 +174,7 @@ a:hover{
     display: flex;
     color: #353535;
 }
-#imagens-valores {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-#imagens-valores li div {
-    background-color: #FFFFFF;
-    margin: 0 2rem 0 2rem;
-    padding: 2rem;
-    max-width: 10rem;
-    border-radius: 100%;
-}
-#imagens-valores li {
-    max-width: 18rem;
-}
-#imagens-valores li div img {
-    width: 10rem;
-    height: 10rem;
-}
-.titulos-valores {
-    margin: 0 2rem 0 2rem;
-    padding: 2rem;
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-}
-.texto-valores {
-    font-size: 1.7rem;
-    font-weight: 100;
-    line-height: 0.8;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
+/*Descrição 1*/
 .descricao1 {
     display: flex;
     flex-direction: row;
@@ -247,6 +212,7 @@ a:hover{
     font-size: 1.25rem;
     font-weight: 400;
 }
+/*Descricao2*/
 .descricao2 {
     display: flex;
     flex-direction: row-reverse;
@@ -260,6 +226,59 @@ a:hover{
     margin-left: 4rem;
 }
 .descricao2 .imagem-lobo {
+    background-image: url(./img/image\ \(2\).png);
+}
+.descricao3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
+}
+.imagem-lobo {
+    background-image: url(./img/image\ \(1\).png);
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
+}
+.descricao-lobo {
+    margin: 3rem 0 3rem 3rem;
+    margin-bottom: 5rem;
+}
+.nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/*Descrição 3*/
+.descricao3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.descricao3 {
+    text-align: end; 
+}
+.descricao3 .quadrado-azul {
+    margin-left: 4rem;
+}
+.descricao3 .imagem-lobo {
     background-image: url(./img/image\ \(2\).png);
 }
 footer {
