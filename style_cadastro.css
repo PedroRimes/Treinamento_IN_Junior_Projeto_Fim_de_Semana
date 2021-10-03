@@ -47,7 +47,6 @@ main {
     display: flex;
     flex-direction: column;   
     min-width: 70%;
-    
 }
 
 #entrada-dados div div:last-child textarea {
