@@ -18,20 +18,6 @@ const transformaDiv=(name,age,link_image,description,id) => {
     <!-- <figure class="imagem-lobo"></figure> -->
     </div>
     <div class="descricao-lobo">
-<<<<<<< HEAD
-        <div>
-            <p class="nome-lobo">${name}</p>
-            <button type="submit" class="caixaadotar">Adotar</button>
-        </div>
-        <div>
-            <h3 class="idade-lobo">Idade: ${age} anos</h3>
-            <p class="texto-lobo">${description}</p>
-        </div>
-    </div>`;
-    $('#html').html(html);
-    new_child.classList.add("div_group")
-    list.appendChild(new_child)
-=======
     <div>
     <p class="nome-lobo">${name}</p>
     <button type="submit" class="caixaadotar">Adotar</button>
@@ -44,7 +30,6 @@ const transformaDiv=(name,age,link_image,description,id) => {
     </div>`
     entrada_dados.appendChild(nova_li)
     console.log('test')
->>>>>>> 50874f03b81d13eb791b90b23d84c3b0a92cb052
 }
 
     fetch(url)
