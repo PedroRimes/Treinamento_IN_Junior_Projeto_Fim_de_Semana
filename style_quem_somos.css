@@ -10,6 +10,7 @@ main {
 main h1{
     font-size: 60px;
     font-weight: 570;
+    text-align: center;
 }
 
 main p {
