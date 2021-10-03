@@ -16,7 +16,7 @@ header {
     z-index: 2;
 }
 /* Parte da animação menu ///////////////////////////////////*/
-a{
+a.links-header1{
     color:rgb(51, 51, 51);
     cursor: pointer;
     margin-top: 1.5em;
@@ -26,15 +26,17 @@ a{
     background: 10px;
     
 }
-a:hover{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-  }
+a.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
 
-a:focus{
-    color:rgb(255, 255, 255);
-    background: #000;
-  }
 .links-header1 {
     text-decoration: none;
     color: #333333;
@@ -101,20 +103,7 @@ a:focus{
 .num_id{
     padding-left: 2em;
 }
-.descricao1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.quadrado-azul {
-    background-color: #2C5680;
-    width: 25rem;
-    height: 20rem;
-    position: absolute;
-    border: #333333 solid 4px;
-}
 .adote-um-lobinho{
     display: flex;
     justify-content: center;
@@ -124,8 +113,8 @@ a:focus{
 }
 .imagem-lobo {
     background-image: url(./img/image\ \(1\)\ circulo.jpg);
-    width: 12rem;
-    height: 12rem;
+    width: 10em;
+    height: 10em;
     margin: 2rem 0 0 2rem;
     border-radius: 50%;
     position: relative;
@@ -139,10 +128,7 @@ a:focus{
 .nome_id {
     display: flex;  
 }
-.descricao-lobo {
-    margin: 3rem 0 3rem 3rem;
-    margin-bottom: 5rem;
-}
+
 .nome-lobo {
     font-size: 2.2rem;
     font-weight: bold;
@@ -159,42 +145,57 @@ a:focus{
     font-weight: 400;
     margin-bottom: 2rem;
 }
-.botoes{
-    /* padding-top: 5em; */
+
+input{
+    border: 0px;
+    border-bottom: 1px solid#727272;
+    ;
+}
+label{
+    font-size: 1.4em;
+    font-weight:500;
+    padding-bottom: 0.2em;
+}
+.botao{
+    text-align: center;
+    
+}
+button{
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0em;
+    font-weight: 400;
+    background-color: #2C5680;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+.nome-idade{
     display: flex;
-    justify-content: space-between;
 }
-.adotar{
-    text-align: center;
-    color: #fafafa;
-    margin-left: 1.75em;
-    margin-top: 3em;
-    font-weight: 700;
-    font-size: 1em;
-    border: 0;
-    width: 170px;
-    background-color: #7AAC3A;
-    height: 56px;
-}
-
-.excluir{
-    text-align: center;
-    color: #fafafa;
-    margin-left: 1.75em;
-    margin-top: 3em;
-    font-weight: 700;
-    font-size: 1em;
-    border: 0;
-    width: 170px;
-    background-color: #DE5959;
-    left: 430px;
-}
-
 .divisao-degrade {
     background-image: linear-gradient(to right, #DEB959, #2C5680);
     height: 0.4rem;
 } 
-
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+}
+#name{
+    width: 49.5em;
+}
+#age{
+    width: 4em;
+}
+#email{
+    width: 57em;
+}
+#entrada-dados{
+    padding-top: 2em;
+}
 footer {
     background-color: #333333;
     display: flex;

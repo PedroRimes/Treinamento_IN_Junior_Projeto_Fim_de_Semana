@@ -41,10 +41,6 @@ a:hover{
     font-size: 2rem;
   }
 
-a:focus{
-    color:rgb(255, 255, 255);
-    background: #000;
-  }
 .links-header1 {
     text-decoration: none;
     color: #333333;
