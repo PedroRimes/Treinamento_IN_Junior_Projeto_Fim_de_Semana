@@ -25,7 +25,8 @@ const apareceLobo = (id,name,age,link_image,description) =>{
             <h3 class="idade-lobo">Idade: ${age} anos</h3>
             <p class="texto-lobo">${description}</p>
         </div>
-    </div>`
+    </div>`;
+    $('#html').html(html);
     new_child.classList.add("div_group")
     list.appendChild(new_child)
 }
