@@ -31,8 +31,8 @@
 //     },
 // ]
 
-const $ = document
-let submit = $.querySelector('#entrada-dados');
+// const $ = "document"
+// let submit = $.querySelector('#entrada-dados');
 const url = "http://lobinhos.herokuapp.com"
 
 // APARECE O LOBO /////////
@@ -59,37 +59,42 @@ const url = "http://lobinhos.herokuapp.com"
 
 // GET /////////////////////////////////////
 
-const getWolves = (fetch(url).then(resp => resp.json()))
+// const getWolves = (fetch(url).then(resp => resp.json()))
 
 // Adicionar Novo Lobo //////////////////////////////////////////////////////////
 
-submit.addEventListener('click', () =>{
-    var name = $.querySelector("#name").value;
-    var age = $.querySelector("#age").value;
-    var link_image = $.querySelector("#link_image").value;
-    var description = $.querySelector("#description").value;
-    if (name != "" && age != "" && image != "" && description != ""){
-        let fetchBody = {
-            wolf: {
-                "name": name,
-                "age": age,
-                "link_image": link_image,
-                "description": description
-            }
-        }
-        let fetchConfig = {
-            method = "POST",
-            headers = {"Content-Type": "application/json"},
-            body: JSON.stringify(fetchBody)
-        }
-        fetch(url,fetchConfig)
-        .then(resp => resp.json())
-        .then(wolf => {
-            wolf.forEach(element => {
-                apareceLobo(element => element)
-            });
-        })
-    }
+// submit.addEventListener('click', () =>{
+//     var name = $.querySelector("#name").value;
+//     var age = $.querySelector("#age").value;
+//     var link_image = $.querySelector("#link_image").value;
+//     var description = $.querySelector("#description").value;
+//     if (name != "" && age != "" && image != "" && description != ""){
+//         let fetchBody = {
+//             wolf: {
+//                 "name": name,
+//                 "age": age,
+//                 "link_image": link_image,
+//                 "description": description
+//             }
+//         }
+//         let fetchConfig = {
+//             method = "POST",
+//             headers = {"Content-Type": "application/json"},
+//             body: JSON.stringify(fetchBody)
+//         }
+//         fetch(url,fetchConfig)
+//         .then(resp => resp.json())
+//         .then(wolf => {
+//             wolf.forEach(element => {
+//                 apareceLobo(element => element)
+//             });
+//         })
+//     }
 
-})
+// })
 ////////////////////////////////////////////////////////////////////
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
