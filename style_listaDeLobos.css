@@ -201,15 +201,29 @@ a:hover{
     margin: 2rem 0 0 2rem;
     position: relative;
 }
+.caixaadotar {
+    display: flex;
+    justify-content: center;
+    margin-left: 20em;
+    height: 2.5rem;
+    width: 6em;
+    background: #DEB959;
+    font-family: Darker Grotesque;
+    font-size: 1.3rem;
+    border-color: #ffffff;
+    color:#ffffff
+}
 .descricao1 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
     margin-left: 7rem;
+    margin-right: 0rem;
 }
 .descricao1 .nome-lobo {
     font-size: 2.2rem;
     font-weight: bold;
-    margin-bottom: 0.6rem;
+    margin-right: 0;
+    width: 6em;
 }
 .descricao1 .idade-lobo {
     font-size: 1rem;
@@ -243,6 +257,18 @@ a:hover{
     height: 20rem;
     margin: 2rem 0 0 2rem;
     position: relative;
+}
+.caixaadotar2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 20em;
+    height: 2.5rem;
+    width: 6em;
+    background: #DEB959;
+    font-family: Darker Grotesque;
+    font-size: 1.3rem;
+    border-color: #ffffff;
+    color:#ffffff
 }
 .descricao2 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
