@@ -203,7 +203,7 @@ a:hover{
     border: #333333 solid 4px;
 }
 .descricao1 .imagem-lobo {
-    background-image: url(./img/image\ \(1\).png);
+    /* background-image: url(./img/image\ \(1\).png); */
     width: 25rem;
     height: 20rem;
     margin: 2rem 0 0 2rem;
