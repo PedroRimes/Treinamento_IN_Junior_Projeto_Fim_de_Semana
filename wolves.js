@@ -35,7 +35,7 @@ const transformaDiv=(name,age,link_image,description,id) => {
     fetch(url)
     .then(resp => resp.json())
     .then(wolves => {
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i <= wolves.wolves.length; i++) {
             transformaDiv(wolves.wolves[i].name, wolves.wolves[i].age, wolves.wolves[i].link_image, wolves.wolves[i].description, wolves.wolves[i].id)
         }
     })    
