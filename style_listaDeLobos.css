@@ -21,6 +21,8 @@ header {
     z-index: 2;
 }
 
+/*link 1*/
+
 a.links-header1{
     color:rgb(51, 51, 51);
     cursor: pointer;
@@ -73,6 +75,7 @@ a:hover{
     
 } 
 
+/*link 2*/
 
 .links-header2 {
     text-decoration: none;
@@ -99,6 +102,7 @@ a:hover{
     transform: scaleX(1);
     font-size: 1.5rem;
 }  
+/*caixa inicial*/
 .supertextbox{
     display: flex;
     justify-content: center;
@@ -127,12 +131,12 @@ a:hover{
     margin-right: 26%;
     margin-bottom: 3em;
 }
-.verlobinhos{
-    margin-left:10px;
-}
 .marker{
     display: flex;
     justify-content: center;
+}
+.verlobinhos{
+    margin-left:10px;
 }
 .containerlobos{
     display: flex;
@@ -174,113 +178,178 @@ a:hover{
     display: flex;
     color: #353535;
 }
+
 /*Descrição 1*/
+
 .descricao1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
-.quadrado-azul {
+.descricao1 .quadrado-azul {
     background-color: #2C5680;
     width: 25rem;
     height: 20rem;
     position: absolute;
     border: #333333 solid 4px;
 }
-.imagem-lobo {
+.descricao1 .imagem-lobo {
     background-image: url(./img/image\ \(1\).png);
     width: 25rem;
     height: 20rem;
     margin: 2rem 0 0 2rem;
     position: relative;
 }
-.descricao-lobo {
+.descricao1 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
+    margin-left: 7rem;
 }
-.nome-lobo {
+.descricao1 .nome-lobo {
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 0.6rem;
 }
-.idade-lobo {
+.descricao1 .idade-lobo {
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
-.texto-lobo {
+.descricao1 .texto-lobo {
     font-size: 1.25rem;
     font-weight: 400;
 }
+
 /*Descricao2*/
+
 .descricao2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     flex-wrap: wrap;
-}
-.descricao2 {
     text-align: end; 
 }
 .descricao2 .quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
     margin-left: 4rem;
 }
 .descricao2 .imagem-lobo {
     background-image: url(./img/image\ \(2\).png);
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
 }
+.descricao2 .descricao-lobo {
+    margin: 3rem 0 3rem 3rem;
+    margin-bottom: 5rem;
+    margin-right: 7rem;
+}
+.descricao2 .nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.descricao2 .idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.descricao2 .texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/*Descicao 3*/
+
 .descricao3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
-.quadrado-azul {
+.descricao3 .quadrado-azul {
     background-color: #2C5680;
     width: 25rem;
     height: 20rem;
     position: absolute;
     border: #333333 solid 4px;
 }
-.imagem-lobo {
-    background-image: url(./img/image\ \(1\).png);
+.descricao3 .imagem-lobo {
+    background-image: url(./img/image\ \(4\));
     width: 25rem;
     height: 20rem;
     margin: 2rem 0 0 2rem;
     position: relative;
 }
-.descricao-lobo {
+.descricao3 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
+    margin-left: 7rem;
 }
-.nome-lobo {
+.descricao3 .nome-lobo {
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 0.6rem;
 }
-.idade-lobo {
+.descricao3 .idade-lobo {
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
-.texto-lobo {
+.descricao3 .texto-lobo {
     font-size: 1.25rem;
     font-weight: 400;
 }
-/*Descrição 3*/
-.descricao3 {
+
+/*Descrição 4*/
+
+.descricao4 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     flex-wrap: wrap;
-}
-.descricao3 {
     text-align: end; 
 }
-.descricao3 .quadrado-azul {
+.descricao4 .quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
     margin-left: 4rem;
 }
-.descricao3 .imagem-lobo {
-    background-image: url(./img/image\ \(2\).png);
+.descricao4 .imagem-lobo {
+    background-image: url(./img/image\ \(5\));
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
 }
+.descricao4 .descricao-lobo {
+    margin: 3rem 0 3rem 3rem;
+    margin-bottom: 5rem;
+    margin-right: 7rem;
+}
+.descricao4 .nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.descricao4 .idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.descricao4 .texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.divisao-degrade {
+    background-image: linear-gradient(to right, #DEB959, #2C5680);
+    height: 0.4rem;
+} 
 footer {
     background-color: #333333;
     display: flex;
