@@ -116,11 +116,19 @@ a:hover{
     margin-bottom: 1em;
     max-height: 10em;
 }
+.lupinha{
+    margin-top: 0.5em;
+    margin-right: 1em;
+    resize: initial;
+    display: flex;
+    align-self: center;
+}
 #search{
     display: flex;
     justify-content: center;
     width: 50em;
-    border: 0.1em solid #333333;
+    border:rgb(255, 255, 255);
+    border-bottom: 0.1em solid #333333;
     box-sizing: border-box;
     font-size: 1em;
 }
