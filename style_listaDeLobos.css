@@ -241,8 +241,12 @@ a:hover{
 .descricao1 .texto-lobo {
     font-size: 1.25rem;
     font-weight: 400;
+    
 }
 
+.texto-lobo {
+    width: 20rem;
+}
 /*Descricao2*/
 
 .descricao2 {

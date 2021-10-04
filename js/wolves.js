@@ -1,7 +1,8 @@
 const $ = document
 let list = $.querySelector('#entrada-dados');
 let submit = $.querySelector('#botao');
-const url = "https://lobinhos.herokuapp.com/wolves"
+const url = "https://lobinhos.herokuapp.com/wolves/331"
+
 
 // GET /////////////////////////////////////
 
