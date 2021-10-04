@@ -27,7 +27,7 @@ const transformaDiv=(name,age,link_image,description) => {
     </div>`
     console.dir(entrada_dados)
     console.dir(nova_li)
-    entrada_dados.appendChild(nova_li)
+    entrada_dados.append(nova_li)
 }
 fetch("https://lobinhos.herokuapp.com/wolves")
 .then(resp => resp.json())
@@ -65,7 +65,7 @@ botao.addEventListener("click", (e) => {
         fetch("https://lobinhos.herokuapp.com/wolves", fetchConfig)
         .then(resp => resp.json())
         .then(element => transformaDiv(element.name, element.age, element.link_image, element.description))
-        .catch(error => console.warn(error))
-        
+        .catch(error => console.warn(error)) 
     }
+    window.open("./listaDeLobos.html")
 })
