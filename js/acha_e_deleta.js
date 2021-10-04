@@ -20,7 +20,7 @@ const transformaDiv=(name,link_image,description) => {
         <div class="descricao1">
             <div class="imagens-sobrepostas">
                 <figure class="quadrado-azul"></figure>
-                <figure class="imagem-lobo" src="${link_image}"></figure>
+                <img class="imagem-lobo" src="${link_image}"></img>
                 <div class="botoes">
                     <button class="adotar">Adotar</a>
                     <button class="excluir">Excluir</button>
