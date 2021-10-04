@@ -1,4 +1,3 @@
-
 let list = document.querySelector('#entrada-dados');
 let submit = document.querySelector('#botao');
 const url = "https://lobinhos.herokuapp.com/wolves"

@@ -2,8 +2,8 @@ const $ = document
 let list = $.querySelector('#entrada-dados');
 let submit = $.querySelector('#botao');
 const url = "https://lobinhos.herokuapp.com/wolves/"
-let id = 331;
 let ladoPag = 0
+let contador = 0
 fetch(url)
     .then(resp => resp.json())
     .then(wolves => {
@@ -39,7 +39,7 @@ fetch(url)
         <div class="descricao-lobo">
             <div>
                 <p class="nome-lobo">${name}</p>
-                <button type="submit" id="caixaadotar">Adotar</button>
+                <button type="submit" id="caixaadotar" >Adotar</button>
             </div>
             <div>
                 <h3 class="idade-lobo">Idade: ${age} anos</h3>
@@ -47,6 +47,7 @@ fetch(url)
                 </div>
             </div>
         </div>`    
+        contador ++
         entrada_dados.appendChild(nova_div)
         console.log('test')
     }
