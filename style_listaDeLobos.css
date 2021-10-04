@@ -43,11 +43,14 @@ a.links-header2{
     background: 10px;
     
 }
-a:hover{
+a.links-header1:hover{
     color: rgb(255, 255, 255);
     font-size: 2rem;
 }
-
+a.links-header2:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
 .links-header1 {
     text-decoration: none;
     color: #333333;
