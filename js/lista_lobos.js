@@ -33,7 +33,9 @@ fetch(url)
         `
         <div class="imagens-sobrepostas">
             <figure class="quadrado-azul"></figure>
+            <a href="show_lobinhos.html?id=${id}">
             <img class="imagem-lobo" src="${link_image}" alt="">
+            </a>
             
         </div>
         <div class="descricao-lobo">
