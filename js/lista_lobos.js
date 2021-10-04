@@ -33,14 +33,16 @@ fetch(url)
         `
         <div class="imagens-sobrepostas">
             <figure class="quadrado-azul"></figure>
-            <a href="show_lobinhos.html?id=${id}">
+            <a href="show_lobinhos.html?${id}">
             <img class="imagem-lobo" src="${link_image}" alt="">
             </a>
             
         </div>
         <div class="descricao-lobo">
         <div id="nome-botao${ladoPag%2}">
-            <button type="submit" id="caixaAdotar${ladoPag%2}">Adotar</button>
+            <form method="GET" target="_blank" action="adote_lobinho.html">
+                <button type="submit" id="caixaAdotar${ladoPag%2}">Adotar</button>
+            </form>
             <p class="nome-lobo">${name}</p>
             </div>
             <div>
@@ -53,3 +55,4 @@ fetch(url)
         entrada_dados.appendChild(nova_div)
         console.log('test')
     }
+

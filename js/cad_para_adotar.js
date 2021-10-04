@@ -11,14 +11,14 @@ fetch(url + id)
 
 // cadastro adoção//////
 const transformaDiv = (name,age,email,wolf_id) => {
-    let show_lobinho = document.getElementById("show-lobinho");
+    let show_lobinho = document.getElementById("adote-um-lobinho");
     let nova_li = $.createElement("li")
     nova_li.innerHTML = `
     <div class="imagem_nome">
             <figure class="imagem-lobo"></figure>
             <div class="Nome_id">
-                <h1 class="titulos-amarelos">Adote o(a) NomeDoLobo</h1>
-                <p class="num_id">ID: 236126</p>
+                <h1 class="titulos-amarelos">Adote o(a) ${name}</h1>
+                <p class="num_id">ID: ${id}</p>
             </div>
         </div>
         <form action="">
