@@ -12,23 +12,23 @@ main {
     font-weight: 600;
 
 }
-#entrada-dados {
+#myForm {
     width: 100%;
 }
-#entrada-dados div div textarea {
+#myForm div div textarea {
    
     width: 100%;
 }
-#entrada-dados div {
+#myForm div {
     margin: 2rem 0 0 0;
 }
 
-#entrada-dados div p {
+#myForm div p {
    font-size: 2rem;
    margin-bottom: 1rem;
 }
 
-#entrada-dados div textarea {
+#myForm div textarea {
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ main {
 
 
 
-#entrada-dados div textarea{
+#myForm div textarea{
     background-color: #E6E6E6;
     min-width: 13rem;
 }
@@ -70,7 +70,7 @@ button {
     margin-bottom: 2rem;
 }
 
-#entrada-dados #botao {
+#myForm #botao {
     display: flex;
     align-items: center;
     justify-content: center;
