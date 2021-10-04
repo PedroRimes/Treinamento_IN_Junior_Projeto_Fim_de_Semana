@@ -139,10 +139,10 @@ a.links-header2{
 }
 
 .texto-lobo {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 2rem;
-
+    width: 20rem;
 }
 
 .botoes{

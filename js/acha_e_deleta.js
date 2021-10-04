@@ -22,8 +22,8 @@ const transformaDiv=(name,link_image,description) => {
                 <figure class="quadrado-azul"></figure>
                 <figure class="imagem-lobo" src="${link_image}"></figure>
                 <div class="botoes">
-                    <button  class="adotar">Adotar</button>
-                    <button  class="excluir">Excluir</button>
+                    <a  href="./cadastro.html" class="adotar">Adotar</a>
+                    <button class="excluir">Excluir</button>
                 </div>
             </div>
             <div class="descricao-lobo">
@@ -33,4 +33,7 @@ const transformaDiv=(name,link_image,description) => {
         </div>`
     console.dir(show_lobinho)
     show_lobinho.appendChild(nova_li)
+
 }
+
+const excluir = $.getElementsByClassName('excluir');

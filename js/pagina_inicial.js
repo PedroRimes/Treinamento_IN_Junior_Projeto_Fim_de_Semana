@@ -37,29 +37,7 @@ fetch(url)
         let nova_div = $.createElement("div")
         nova_div.setAttribute("class","descricao" + ladoPag )
         nova_div.innerHTML = 
-          `<div class="descricao1">
-          <div class="imagens-sobrepostas">
-              <figure class="quadrado-azul"></figure>
-              <img class="imagem-lobo" src="./img/image (1).png" alt="">
-              
-          </div>
-          <div class="descricao-lobo">
-              <div>
-                  <p class="nome-lobo">Nome do Lobo</p>
-                  <button type="submit" class="caixaadotar">Adotar</button>
-              </div>
-              <div>
-                  <h3 class="idade-lobo">Idade: XX anos</h3>
-                  <p class="texto-lobo">Não obstante, o surgimento do comércio virtual faz<br> parte de um processo de
-                      gerenciamento do<br> levantamento das variáveis envolvidas. Não obstante,<br> o surgimento do
-                      comércio virtual faz parte de um<br> processo de gerenciamento do levantamento das<br> variáveis
-                      envolvidas.Não obstante, o surgimento do<br> comércio virtual faz parte de um processo de<br>
-                      gerenciamento do levantamento das variáveis<br> envolvidas.Não obstante, o surgimento do
-                      comércio<br> virtual faz parte de um processo de gerenciamento<br> do levantamento das variáveis
-                      envolvidas.</p>
-                  </div>
-              </div>
-          </div> -->`
+          
             // `<div class="imagens-sobrepostas">
             //     <figure class="quadrado-azul"></figure>
             //     <figure class="imagem-lobo" src="${link_image}"></figure>
