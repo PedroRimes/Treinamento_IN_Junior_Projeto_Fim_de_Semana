@@ -1,13 +1,19 @@
 const $ = document
 let show = $.querySelector('#show-lobinho');
 let del = $.querySelector('#delete');
-const url = "https://lobinhos.herokuapp.com/wolves/331";
+const url = "https://lobinhos.herokuapp.com/wolves/";
+const id = window.location.search.split("=")[1];
+console.log (id);
 
+fetch(url + id)
+.then(resp => resp.json())
+.then(wolves => {transformaDiv(wolves.wolf.name, wolves.wolf.link_image, wolves.wolf.description, wolves.wolf.id)
+})
 
 
 //APARECE O LOBO SELECIONADO//
-const transformaDiv=(link_image,description,name) => {
-    let show_lobinho = document.getElementById("#show-lobinho");
+const transformaDiv=(name,link_image,description) => {
+    let show_lobinho = document.getElementById("show-lobinho");
     let nova_li = $.createElement("li")
     nova_li.innerHTML = `
     <h2 class="titulos-amarelos">${name}</h2>
@@ -25,12 +31,6 @@ const transformaDiv=(link_image,description,name) => {
                     <p class="texto-lobo">${description}</p>
             </div>
         </div>`
+    console.dir(show_lobinho)
     show_lobinho.appendChild(nova_li)
 }
-
-fetch(url)
-.then(resp => resp.json())
-.then(wolves => {
-    for (let i = 0; i <= wolves.wolves.length; i++) {
-        transformaDiv(wolves.wolves[i].name, wolves.wolves[i].link_image, wolves.wolves[i].description, wolves.wolves[i].id)}
-    })

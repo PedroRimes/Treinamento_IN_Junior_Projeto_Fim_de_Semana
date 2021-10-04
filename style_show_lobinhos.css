@@ -118,12 +118,14 @@ a.links-header2{
     background-image: url(./img/image\ \(1\).png);
     width: 25rem;
     height: 20rem;
+    padding: auto;
     margin: 2rem 0 0 2rem;
     position: relative;
 }
 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
+    
 }
 .nome-lobo {
     font-size: 2.2rem;
@@ -137,9 +139,10 @@ a.links-header2{
 }
 
 .texto-lobo {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 2rem;
+
 }
 
 .botoes{
