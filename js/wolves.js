@@ -1,14 +1,13 @@
 const $ = document
 let list = $.querySelector('#entrada-dados');
 let submit = $.querySelector('#botao');
-const url = "https://lobinhos.herokuapp.com/wolves"
+const url = "https://lobinhos.herokuapp.com/wolves/331"
 
-// GET /////////////////////////////////////
 
 
 // APARECE O LOBO /////////
-const transformaDiv=(name,age,link_image,description,id) => {
-    let entrada_dados = document.querySelector("#entrada-dados");
+const transformaDiv=(name,age,link_image,description,elementId) => {
+    let entrada_dados = document.getElementById(elementId);
     let nova_li = $.createElement("li")
     nova_li.innerHTML = `
     <div class="descricao1">
@@ -36,6 +35,6 @@ const transformaDiv=(name,age,link_image,description,id) => {
     .then(resp => resp.json())
     .then(wolves => {
         for (let i = 0; i <= wolves.wolves.length; i++) {
-            transformaDiv(wolves.wolves[i].name, wolves.wolves[i].age, wolves.wolves[i].link_image, wolves.wolves[i].description, wolves.wolves[i].id)
+            transformaDiv(wolves.wolves[i].name, wolves.wolves[i].age, wolves.wolves[i].link_image, wolves.wolves[i].description,"entrada-dados")
         }
     })    
