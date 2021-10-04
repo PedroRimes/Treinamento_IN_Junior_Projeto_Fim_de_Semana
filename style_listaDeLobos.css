@@ -213,11 +213,31 @@ a.links-header2:hover{
     margin: 2rem 0 0 2rem;
     position: relative;
 }
-#caixaadotar {
+#nome-botao1{
     display: flex;
-    justify-content: center;
-    margin-left: 20em;
+    flex-direction: row-reverse;
+    
+}
+
+#nome-botao0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#caixaAdotar1 {
     height: 2.5rem;
+    width: 6em;
+    background: #DEB959;
+    font-family: Darker Grotesque;
+    font-size: 1.3rem;
+    border-color: #ffffff;
+    color:#ffffff;
+}
+
+#caixaAdotar0 {
+    
     width: 6em;
     background: #DEB959;
     font-family: Darker Grotesque;
@@ -225,6 +245,8 @@ a.links-header2:hover{
     border-color: #ffffff;
     color:#ffffff
 }
+
+
 .descricao1 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
@@ -250,16 +272,19 @@ a.links-header2:hover{
 .texto-lobo {
     width: 20rem;
 }
+.descricao0 .texto-lobo {
+    margin-left: 5rem;
+}
 /*Descricao2*/
 
-.descricao2 {
+.descricao0 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     flex-wrap: wrap;
     text-align: end; 
 }
-.descricao2 .quadrado-azul {
+.descricao0 .quadrado-azul {
     background-color: #2C5680;
     width: 25rem;
     height: 20rem;
@@ -267,127 +292,39 @@ a.links-header2:hover{
     border: #333333 solid 4px;
     margin-left: 4rem;
 }
-.descricao2 .imagem-lobo {
+.descricao0 .imagem-lobo {
    
     width: 25rem;
     height: 20rem;
     margin: 2rem 0 0 2rem;
     position: relative;
 }
-.caixaadotar2 {
-    display: flex;
-    justify-content: center;
-    margin-right: 20em;
-    height: 2.5rem;
-    width: 6em;
-    background: #DEB959;
-    font-family: Darker Grotesque;
-    font-size: 1.3rem;
-    border-color: #ffffff;
-    color:#ffffff
-}
-.descricao2 .descricao-lobo {
+
+.descricao0 .descricao-lobo {
     margin: 3rem 0 3rem 3rem;
     margin-bottom: 5rem;
     margin-right: 7rem;
 }
-.descricao2 .nome-lobo {
+.descricao0 .nome-lobo {
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 0.6rem;
 }
-.descricao2 .idade-lobo {
+.descricao0 .idade-lobo {
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
-.descricao2 .texto-lobo {
+.descricao0 .texto-lobo {
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+section {
+    padding-bottom: 6rem;
 }
 
 /*Descicao 3*/
 
-.descricao3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.descricao3 .quadrado-azul {
-    background-color: #2C5680;
-    width: 25rem;
-    height: 20rem;
-    position: absolute;
-    border: #333333 solid 4px;
-}
-.descricao3 .imagem-lobo {
-    background-image: url(./img/image\ \(4\));
-    width: 25rem;
-    height: 20rem;
-    margin: 2rem 0 0 2rem;
-    position: relative;
-}
-.descricao3 .descricao-lobo {
-    margin: 3rem 0 3rem 3rem;
-    margin-bottom: 5rem;
-    margin-left: 7rem;
-}
-.descricao3 .nome-lobo {
-    font-size: 2.2rem;
-    font-weight: bold;
-    margin-bottom: 0.6rem;
-}
-.descricao3 .idade-lobo {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-}
-.descricao3 .texto-lobo {
-    font-size: 1.25rem;
-    font-weight: 400;
-}
-
-/*Descrição 4*/
-
-.descricao4 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: end; 
-}
-.descricao4 .quadrado-azul {
-    background-color: #2C5680;
-    width: 25rem;
-    height: 20rem;
-    position: absolute;
-    border: #333333 solid 4px;
-    margin-left: 4rem;
-}
-.descricao4 .imagem-lobo {
-    background-image: url(./img/image\ \(5\));
-    width: 25rem;
-    height: 20rem;
-    margin: 2rem 0 0 2rem;
-    position: relative;
-}
-.descricao4 .descricao-lobo {
-    margin: 3rem 0 3rem 3rem;
-    margin-bottom: 5rem;
-    margin-right: 7rem;
-}
-.descricao4 .nome-lobo {
-    font-size: 2.2rem;
-    font-weight: bold;
-    margin-bottom: 0.6rem;
-}
-.descricao4 .idade-lobo {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-}
-.descricao4 .texto-lobo {
-    font-size: 1.25rem;
-    font-weight: 400;
-}
 .divisao-degrade {
     background-image: linear-gradient(to right, #DEB959, #2C5680);
     height: 0.4rem;

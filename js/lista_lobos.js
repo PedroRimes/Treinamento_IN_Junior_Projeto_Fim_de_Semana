@@ -28,18 +28,18 @@ fetch(url)
     const transformaDiv = (name, age, link_image, description, id, ladoPag) => {
         let entrada_dados = document.querySelector("#entrada-dados");
         let nova_div = $.createElement("div")
-        nova_div.setAttribute("class","descricao" + ladoPag )
+        nova_div.setAttribute("class","descricao" + (ladoPag%2) )
         nova_div.innerHTML = 
-        `<div class="descricao${ladoPag}">
+        `
         <div class="imagens-sobrepostas">
             <figure class="quadrado-azul"></figure>
             <img class="imagem-lobo" src="${link_image}" alt="">
             
         </div>
         <div class="descricao-lobo">
-            <div>
-                <p class="nome-lobo">${name}</p>
-                <button type="submit" id="caixaadotar">Adotar</button>
+        <div id="nome-botao${ladoPag%2}">
+            <button type="submit" id="caixaAdotar${ladoPag%2}">Adotar</button>
+            <p class="nome-lobo">${name}</p>
             </div>
             <div>
                 <h3 class="idade-lobo">Idade: ${age} anos</h3>
