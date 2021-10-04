@@ -46,21 +46,11 @@ fetch(url)
                 <p class="texto-lobo">${description}</p>
                 </div>
             </div>
-        </div> -->`    
-        // `<div class="imagens-sobrepostas">
-            //     <figure class="quadrado-azul"></figure>
-            //     <figure class="imagem-lobo" src="${link_image}"></figure>
-            // </div>
-            // <div class="descricao-lobo">
-            //     <div>
-            //         <h2 class="nome-lobo">${name}</h2>
-            //         <button type="submit" class="caixaadotar2">Adotar</button>
-            //     </div>
-            //     <div>
-            //         <h3 class="idade-lobo">Idade: ${age} anos</h3>
-            //         <p class="texto-lobo"></p>
-            //     </div>
-            // </div>`
+        </div> `    
         entrada_dados.appendChild(nova_div)
         console.log('test')
     }
+
+// FILTRO PESQUISA ////////
+
+    
