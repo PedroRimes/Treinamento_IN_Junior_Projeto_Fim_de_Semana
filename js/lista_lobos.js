@@ -39,18 +39,14 @@ fetch(url)
         <div class="descricao-lobo">
             <div>
                 <p class="nome-lobo">${name}</p>
-                <button type="submit" class="caixaadotar">Adotar</button>
+                <button type="submit" id="caixaadotar">Adotar</button>
             </div>
             <div>
                 <h3 class="idade-lobo">Idade: ${age} anos</h3>
                 <p class="texto-lobo">${description}</p>
                 </div>
             </div>
-        </div> `    
+        </div>`    
         entrada_dados.appendChild(nova_div)
         console.log('test')
     }
-
-// FILTRO PESQUISA ////////
-
-    
